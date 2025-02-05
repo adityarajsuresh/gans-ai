@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# But do not ignore Python files
+!*.py
+
+# Allow Jupyter Notebooks (if needed)
+!*.ipynb
+
+# Allow Markdown files (if needed)
+!*.md
+
+# Allow .gitignore itself
+!.gitignore
+
+# Ignore CIFAR-10 dataset files
+cifar-10-python.tar.gz
+data/cifar-10-batches-py/
+data/cifar-10-batches-py/*
